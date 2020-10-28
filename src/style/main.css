@@ -7,7 +7,35 @@
 html {
 	font-size: 10px;
 }
-
+.row-wrapper {
+	width: 100%;
+}
+.col {
+	display: flex;
+}
+.flex-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.proj {
+	margin-bottom: 20px;
+}
+.proj img {
+	border-radius: 20px;
+	box-shadow: 0px 4px 27px 3px rgba(0,0,0,0.61);
+-webkit-box-shadow: 0px 4px 27px 3px rgba(0,0,0,0.61);
+-moz-box-shadow: 0px 4px 27px 3px rgba(0,0,0,0.61);
+}
+.col-sm-12 {
+	width: 100% !important;
+}
+/* .before-icon {
+	position: absolute;
+	left: 10px;
+	top: -30px;
+	width: 150px !important;
+} */
 @media only screen and (max-width:1024px) {
 	html {
 		font-size: 9.411764705882353px;
@@ -110,7 +138,11 @@ h6, .h06 {
 p img {
 	margin: 0;
 }
-p.lead {
+.lead {
+	width: 100%;
+	/* display: flex;
+	justify-content: space-between;
+	align-items: center; */
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
@@ -686,6 +718,9 @@ button.stroke, .button.stroke {
 	background: transparent !important;
 	border: 3px solid #313131;
 	line-height: 4.8rem;
+}
+.mainPic {
+	border: 3px solid #313131;
 }
 button.stroke.medium, .button.stroke.medium {
 	line-height: 5.1rem !important;
@@ -1458,17 +1493,14 @@ header .logo a {
 }
 
 .intro-info {
+	
 	margin-top: 4.2rem;
 	margin-right: -30px;
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 14rem;
-	width: 14rem;
-	border-radius: 50%;
-	margin: .9rem 3rem 0 0;
-	float: left;
-	/* transform: rotate(180deg); */
+	width: 300px;
+
 }
 .intro-info .lead {
 	text-align: left;
@@ -1749,17 +1781,30 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
+ #folio-wrapper {
+	 margin: 0 auto  !important;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ }
 #portfolio {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
 #portfolio .folio-item {
+	
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	border-radius: 10px;
+	
+	height: 280px; 
+    object-fit: cover;
 }
 #portfolio .folio-item img {
+
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1891,6 +1936,8 @@ header .logo a {
 	color: rgba(0, 0, 0, 0.5);
 }
 .popup-modal .link-box {
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
 	overflow: hidden;
 	background: #000000;
@@ -2112,6 +2159,7 @@ header .logo a {
 }
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 10px;
 }
 
 /* pagination */
@@ -2201,7 +2249,9 @@ header .logo a {
 	#stats .stat:nth-child(n) {
 		border: none;
 	}
+
 }
+
 
 
 /** 
