@@ -1332,7 +1332,7 @@ header .logo a {
 }
 .intro-content h5 {
 	color: #cc005f;
-	font-family: "poppins-bold", sans-serif;
+	font-family: "lora-regular", serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
@@ -1342,7 +1342,7 @@ header .logo a {
 }
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
+	font-size: 2.5rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
