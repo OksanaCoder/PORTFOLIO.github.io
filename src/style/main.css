@@ -2608,3 +2608,12 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.portfolio-wrapper {
+	background-color: #E5E5E5;
+	display: flex;
+	justify-content: space-between;
+}
+.portfolio_ux {
+	background-color: #E5E5E5 !important;
+}
