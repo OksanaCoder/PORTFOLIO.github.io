@@ -2617,3 +2617,6 @@ footer .copyright span:last-child::after {
 .portfolio_ux {
 	background-color: #E5E5E5 !important;
 }
+.port-item {
+	width: 33.3%;
+}
