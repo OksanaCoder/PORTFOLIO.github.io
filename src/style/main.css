@@ -1800,7 +1800,7 @@ header .logo a {
 	overflow: hidden;
 	border-radius: 10px;
 	
-	height: 280px; 
+	/* height: 280px;  */
     object-fit: cover;
 }
 #portfolio .folio-item img {
@@ -2620,7 +2620,7 @@ footer .copyright span:last-child::after {
 	background-color: #E5E5E5 !important;
 }
 .port-item {
-	width: 33.3%;
+	width: 25%;
 }
 
 .port-item-small {
