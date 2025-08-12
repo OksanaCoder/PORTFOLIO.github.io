@@ -2568,6 +2568,8 @@ footer .copyright span:last-child::after {
 	footer .copyright span::after {
 		display: none;
 	}
+
+	
 }
 
 /**
@@ -2619,4 +2621,8 @@ footer .copyright span:last-child::after {
 }
 .port-item {
 	width: 33.3%;
+}
+
+.port-item-small {
+	margin: 10px;
 }
